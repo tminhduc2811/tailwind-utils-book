@@ -3,11 +3,11 @@ import React from "react"
 export interface ButtonProps {
     children: string
     onClick?: () => void
+    className?: string
 }
 
-
-export const Button = ({ children }: ButtonProps) => {
+export const Button = ({ children, className }: ButtonProps) => {
     return (
-        <button>{children}</button>
+        <button className={className}>{children}</button>
     )
 }
