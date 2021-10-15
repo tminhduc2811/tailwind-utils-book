@@ -5,6 +5,7 @@ export interface ButtonProps {
     onClick?: () => void
 }
 
+
 export const Button = ({ children }: ButtonProps) => {
     return (
         <button>{children}</button>
