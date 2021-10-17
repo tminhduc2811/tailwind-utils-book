@@ -4,6 +4,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tminhduc2811/tailwind-utils-book"
+  },
   "main": "dist/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
