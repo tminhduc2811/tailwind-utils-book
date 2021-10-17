@@ -9,6 +9,6 @@ export interface ButtonProps {
 
 export const Button = ({ children, className, ...others }: ButtonProps) => {
     return (
-        <button className={className} {...others} >{children}</button>
+        <button className={className} {...others}>{children}</button>
     )
 }
